@@ -1,3 +1,45 @@
 body {
-    background: black;
+    background: #fff;
+    font-family: Helvetica, sans-serif;
+    border-top: 15px solid  #424242;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    color: #590d4b;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #424242;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #424242;
+}
+
+img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+.image {
+    flex: 33.33%;
+}
+
+.banana-cat {
+    height: 50%;
+    width: 50%;
 }
